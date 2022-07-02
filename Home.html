@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Learning | Beranda</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/home.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/navbar.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+
+        $('.carousel').carousel({
+            interval: false,
+        });
+    </script>
+
+</head>
+  <body>
+    <!--NAVBAR MENU-->
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="nav nav-masthead navbar-fixed-top" id="navbar_top">
+            <h3 class="masthead-brand"><a id="Home" class="navbar-brand" href="#">E-Learning</a></h3>
+            <li class="nav-item"><a id="Home" class="nav-link active" href="Home.html"> Home </a></li>
+            <li class="nav-item"><a class="nav-link" href="subjects.html"> Subjects </a></li>
+            <li class="nav-item"><a class="nav-link" href="profile.html"> Profile </a></li>
+            <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i style="color:white;" class="bi bi-bell "></i>
+              </a>
+              
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="./Subjects/English/Assignment/A1.html">Assignment 1 | English</a>
+                  <a class="dropdown-item" href="./Subjects/Indonesia/Assignment/A1.html">Assignment 1 | Indonesia</a>
+                  <a class="dropdown-item" href="./Subjects/Math/Assignment/A1.html">Assignment 1 | Math</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <!--NAVBAR MENU END-->
+
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./assets/media/Slide 1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/media/Slide 2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/media/Slide 3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- carousel -->
+
+   <!-- Announcement -->
+   <h3 class="mt-5 mb-5 text-center text-light">Announcement </h3>
+      <div class="container text-center mt-5 my-5 col-12">
+
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner" style="width: 70%;" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                              <a href="./Announcement/a_1.html">
+                                <div class="card bg-image hover-zoom" >
+                                    <img class="card-img-top" src="./assets/media/1.jpeg" alt="Card image cap">
+                                </div>
+                              </a>
+                              <p class="text-justify text-light mt-3">Programa Diploma Tiga IBI Kesatuan Akan Transformasi Menjadi Sarjana Terapan</p>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                              <a href="./Announcement/a_2.html">
+                                <div class="card bg-image hover-zoom" >
+                                    <img class="card-img-top" src="./assets/media/2.jpeg" alt="Card image cap">
+                                </div>
+                              </a>
+                              <p class="text-justify text-light mt-3">IBI Kesatuan Membuka Program Pascasarjana Magister Akuntasi</p>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                              <a href="./Announcement/a_3.html">
+                                <div class="card bg-image hover-zoom" >
+                                    <img class="card-img-top" src="./assets/media/3.jpeg" alt="Card image cap">
+                                </div>
+                              </a>
+                              <p class="text-justify text-light mt-3">Sosialisasi Pembinaan Karir Dosen Tetap IBI Kesatuan</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                          <div class="col-md-4 mb-3">
+                            <a href="./Announcement/a_4.html">
+                            <div class="card" >
+                                <img class="card-img-top" src="./assets/media/4.jpeg" alt="Card image cap">
+                            </div>
+                          </a>
+                            <p class="text-justify text-light mt-3">Kompetisi Dan Webinar Biokewirausahaan Berskala Nasional</p>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <a href="./Announcement/a_5.html">
+                            <div class="card" >
+                                <img class="card-img-top" src="./assets/media/5.jpeg" alt="Card image cap">
+                            </div>
+                            <p class="text-justify text-light mt-3">IBI Kesatuan Memberikan Donasi Kepada Korban Kebakaran Kampung Cingcau</p>
+                          </div>
+                        </a>
+                          <div class="col-md-4 mb-3">
+                            <a href="./Announcement/a_6.html">
+                            <div class="card" >
+                                <img class="card-img-top" src="./assets/media/6.jpg" alt="Card image cap">
+                            </div>
+                            <p class="text-justify text-light mt-3">Gebyar Ramadhan di Kampung Cingcau, IBI Kesatuan Memberikan Dukungan Penuh</p>
+                          </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Announcement end -->
+
+    <!-- Footer -->
+
+    <!--Services-->
+    <section class="services text-light">
+      <div class="">
+          <center><h3 class="mb-5 mt-">Services</h3></center>
+          
+          <div class="row box d-flex justify-content-center mt-3 mx-auto">
+              <div class="col-2">
+                  <div class="icon mb-5"><i class="bi bi-whatsapp"></i></div>
+                  <a href="https://api.whatsapp.com/send/?phone=6285711111210&text&app_absent=0" target="_blank">
+                      <h4>WhatsApp</h4>
+                      <h5>0857 1111 1210</h5>
+                  </a>
+              </div>
+              <div class="col-2">
+                  <div class="icon mb-5"><i class="bi bi-envelope"></i></div>
+                  <a href="mailto:marketing@ibik.ac.id">
+                    <h4>Email</h4>
+                    <h5>marketing@ibik.ac.id</h5>
+                  </a>
+              </div>
+              <div class="col-2">
+                  <div class="icon mb-5"><i class="bi bi-telephone" target="_blank"></i></div>
+                  <h4>Telephone</h4>
+                  <h5>0816 1700 0489</h5>
+              </div>
+              <div class="col-2">
+                  <div class="icon mb-5"><i class="bi bi-instagram"></i></div>
+                  <a href="https://instagram.com/ibikesatuan?igshid=YmMyMTA2M2Y=" target="_blank">
+                    <h4>Instagram</h4>
+                    <h5>@ibikesatuan</h5>
+                  </a>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!--Services END-->
+
+   <!-- Footer end -->
+  </body>
+</html>

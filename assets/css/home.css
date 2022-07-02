@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    margin-top: 3rem;
+    min-height: 110vh;
+    background: -webkit-gradient(linear, left top, right top, from(#6ed6d1), to(#ee5a6f));
+    background: linear-gradient(to right, #14168f, #6ed6d1);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.dropdown-item{
+    color: black!important;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+.example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.container{
+    margin:0!important;
+}
+
+.carousel-inner{
+    margin: auto;
+  }
+
+.nav-link > active{
+    text-decoration: none;
+    color: white!important;
+    background-color: #2F68D7!important;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(82, 82, 82, 0.8)!important;
+    transition: background-color 200ms linear;
+}
+
+.nav {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.masthead {
+    margin-bottom: 2rem;
+}
+  
+.masthead-brand {
+    margin-bottom: 0;
+    margin-right: 65%;
+}
+  
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+  
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+  
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+  
+.nav-item{
+    margin: 10px;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-brand:active{
+    color: white;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    display: block;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.box .col-2 {
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.box .col-5{
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.right{
+    margin-left: 70%;
+}
+

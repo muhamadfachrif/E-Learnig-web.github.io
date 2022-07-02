@@ -1,0 +1,100 @@
+/* BEGIN CARD DESIGN */
+.subject {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    min-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    overflow:hidden;
+    margin: 30px;
+  }
+  
+  .subject-profile-img {
+    height: 70%;
+  }
+  
+  .subject-description-bk {
+    background-image: -webkit-gradient(linear, left top, right top, from(#F82B73), to(#893E9C));
+    background-image: linear-gradient(to right, #893E9C, #F82B73);
+    border-radius: 30px;
+    position: absolute;
+    top: 55%;
+    left: -5px;
+    height: 65%;
+    width: 108%;
+    transform: skew(19deg, -9deg);
+  }
+  
+  .second .subject-description-bk {
+    background-image: -webkit-gradient(linear, left top, right top, from(#F33E62), to(#F79334));
+    background-image: linear-gradient(to right, #F79334, #F33E62);
+  }
+
+  .third .subject-description-bk {
+    background-image: -webkit-gradient(linear, left top, right top, from(#548AD8), to(#8A4BD3));
+    background-image: linear-gradient(to right, #8A4BD3, #548AD8);
+  }
+
+  .fourth .subject-description-bk {
+    background-image: -webkit-gradient(linear, left top, right top, from(#D39646), to(#CCCCCD));
+    background-image: linear-gradient(to right, #CCCCCD, #D39646);
+  }
+  
+  .subject-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 30%;
+    left: 30px;
+    overflow:hidden;
+
+  }
+  
+  .subject-logo img {
+    height: 100%;
+  }
+  
+  .subject-description {
+    position: absolute;
+    color: #fff;
+    font-weight: 900;
+    left: 150px;
+    bottom: 26%;
+  }
+  
+  .subject-btn {
+    position: absolute;
+    color: #fff;
+    right: 30px;
+    bottom: 10%;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 10%;
+  }
+  
+  .subject-btn a {
+    color: #fff;
+  }
+  
+  .subject-name {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    left: 30px;
+    bottom: 10%;
+  }
+  /* END CARD DESIGN */
+  .btn i:before {
+    width: 14px;
+    height: 14px;
+    position: fixed;
+    color: #fff;
+    background: #0077B5;
+    padding: 10px;
+    border-radius: 50%;
+    top:5px;
+    right:5px;
+  }

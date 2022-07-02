@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning | English Theory</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../assets/css/home.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../assets/js/navbar.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+
+        $('.carousel').carousel({
+            interval: false,
+        });
+    </script>
+
+</head>
+<body>
+    <!--NAVBAR MENU-->
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+              <nav class="nav nav-masthead navbar-fixed-top" id="navbar_top">
+                  <h3 class="masthead-brand"><a id="Home" class="navbar-brand" href="./Home.html    ">E-Learning</a></h3>
+                  <li class="nav-item"><a id="Home" class="nav-link" href="../../../Home.html"> Home </a></li>
+                  <li class="nav-item"><a class="nav-link  active" href="../../../subjects.html"> Subjects </a></li>
+                  <li class="nav-item"><a class="nav-link" href="../../../profile.html"> Profile </a></li>
+                  <li class="nav-item">
+                      <div class="dropdown">
+                          <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i style="color:white;" class="bi bi-bell "></i>
+                          </a>
+                          
+                          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                          </div>
+                  </li>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <!--NAVBAR MENU END-->
+
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <h2 class="card-text"><a href="../English.html" class="text-dark">English</a> : Morita, SS.</h2>
+            </div>
+          </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <div>
+                    <h5 class="card-title text-center"><b>Theory 1</b></h5>
+                    <hr style="width: 50%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis atque velit labore ducimus, tenetur, iusto placeat odit sequi doloremque corrupti voluptate impedit. Provident sed autem commodi facere quo nam?</p>
+                    <a href="./T1.pptx">
+                        <span class="text-danger"><u>Theory 1</u></span>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <div>
+                    <h5 class="card-title text-center"><b>Theory 2</b></h5>
+                    <hr style="width: 50%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis atque velit labore ducimus, tenetur, iusto placeat odit sequi doloremque corrupti voluptate impedit. Provident sed autem commodi facere quo nam?</p>
+                    <a href="./T2.pptx">
+                        <span class="text-danger"><u>Theory 2</u></span>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <div>
+                    <h5 class="card-title text-center"><b>Theory 3</b></h5>
+                    <hr style="width: 50%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis atque velit labore ducimus, tenetur, iusto placeat odit sequi doloremque corrupti voluptate impedit. Provident sed autem commodi facere quo nam?</p>
+                    <a href="./T3.pptx">
+                        <span class="text-danger"><u>Theory 3</u></span>
+                    </a>
+                </div>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+.example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+form{
+    display: inline-block;
+}
+
+.form-control{
+    margin-left: 6%;
+}
+
+.container-fluid{
+    background: -webkit-gradient(linear, left top, right top, from(#6ed6d1), to(#ee5a6f));
+    background: linear-gradient(to right, #14168f, #6ed6d1);
+    min-height: 100vh;
+}
+.container-fluid img{
+    width: 100%;
+    /* height: 750px; */
+}
+
+.img-ibik{
+    margin-top: 0;
+}
+
+.col-lg-6{
+    padding: 0!important;
+}
+
+.logo{
+    margin-top: -50px;
+}
+.logo img {
+    width: 50%;
+    margin: auto;    
+    display: block;
+}
+.logo p{
+    font-family: 'Pacifico', cursive;
+    margin-top: -105px;
+    display: block;
+    font-size: 40px;
+    color: white;
+}
+.card-login{
+    margin: auto;    
+    padding-top: 7%;
+    display: block;
+    width: 475px;
+    height: 373px;
+    background: #FFFFFF;
+    border-radius: 31px;
+
+}
+
+.card-body{
+    align-items: center;
+}
+
+.card-body label{
+    margin-left: 6%;
+}
+
+.card-body input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 12px;
+    width: 425px;
+    height: 44px;
+
+    background: rgba(194, 194, 194, 0.5);
+    border-radius: 20px;
+    border: 0px solid;
+}
+
+.btn-login{
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #6ed6d1;
+    background: #6ed6d1;
+    color: white;
+}
+
+.form-group{
+    padding: 10px;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #333;
+    color: antiquewhite;
+    text-align: center;
+}

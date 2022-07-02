@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning | English</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../assets/css/home.css">
+    <link rel="stylesheet" href="../../../assets/css/assign.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../assets/js/navbar.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+
+        $('.carousel').carousel({
+            interval: false,
+        });
+    </script>
+
+</head>
+<body>
+    <!--NAVBAR MENU-->
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <nav class="nav nav-masthead navbar-fixed-top" id="navbar_top">
+              <h3 class="masthead-brand"><a id="Home" class="navbar-brand" href="./Home.html    ">E-Learning</a></h3>
+              <li class="nav-item"><a id="Home" class="nav-link" href="../../../Home.html"> Home </a></li>
+                <li class="nav-item"><a class="nav-link  active" href="../../../subjects.html"> Subjects </a></li>
+                <li class="nav-item"><a class="nav-link" href="../../../profile.html"> Profile </a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i style="color:white;" class="bi bi-bell "></i>
+                        </a>
+                        
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="../../English/Assignment/A1.html">Assignment 1 | English</a>
+                            <a class="dropdown-item" href="../../Indonesia/Assignment/A1.html">Assignment 1 | Indonesia</a>
+                            <a class="dropdown-item" href="./A1.html">Assignment 1 | Math</a>
+                        </div>
+                    </div>
+                </li>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <!--NAVBAR MENU END-->
+    
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <h2 class="card-text"><a href="../Math.html" class="text-dark">Math</a> : Rahma Djati Kusuma, S.SI., M.T.</h2>
+            </div>
+          </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3 mb-5">
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <h5 class="card-title text-center"><b>Assignment 1</b></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum dolor itaque dolore veniam explicabo fuga quo corporis dolorum magnam! Tempore non sit nam reiciendis sapiente hic commodi accusamus in.</p>
+                <p class="text-danger">Due 1hr:10d</p>
+                <div class="group mt-5">   
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <label>Your Drive Link</label>
+                </div>
+                <div class="positionbutton text-right m-5"style="">
+                    <button id="myButton" type="submit" class="btn-login">Submit</button>    
+                </div>
+            </div>
+          </div>
+    </div>
+   
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "../Math.html";
+        };
+    </script>
+
+</body>
+</html>

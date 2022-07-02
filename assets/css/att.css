@@ -1,0 +1,11 @@
+.attBox {
+    padding: 20px 0; 
+    width: 100%; 
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#6ed6d1), to(#ee5a6f));
+    background: linear-gradient(to right, #6ed6d1, #14168f );
+}
